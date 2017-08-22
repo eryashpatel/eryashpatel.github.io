@@ -1,0 +1,398 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Profile</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <!-- webfonts -->
+    <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <!-- webfonts -->
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_VZhcZ2grn1YXS4RHqNy9i");
+        })();
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!---- start-smoth-scrolling---->
+</head>
+<body>
+    <!-- container -->
+    <!-- header -->
+    <div id="home" class="header">
+        <div class="container">
+            <!-- top-hedader -->
+            <div class="top-header">
+                <!-- /logo -->
+                <!--top-nav---->
+                <div class="top-nav">
+                    <div class="navigation">
+                        <div class="logo">
+                            <!--<h1><a href="index.html"><span>T</span>est&nbsp;Testing</a></h1>-->
+                        </div>
+                        <div class="navigation-right">
+                            <span class="menu"><img src="images/menu.png" alt="" /></span>
+                            <nav class="link-effect-3" id="link-effect-3">
+                                <ul class="nav1 nav nav-wil">
+                                    <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                                    <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                                    <!--<li><a class="scroll" data-hover="Services" href="#services" >Services</a></li>-->
+                                    <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+                                    <!--<li><a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a></li>-->
+                                    <!--<li><a class="scroll" data-hover="Blog" href="#blogs">Blog</a></li>-->
+                                    <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- script-for-menu -->
+                            <script>
+                                $("span.menu").click(function () {
+                                    $("ul.nav1").slideToggle(300, function () {
+                                        // Animation complete.
+                                    });
+                                });
+                            </script>
+                            <!-- /script-for-menu -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- /top-hedader -->
+                </div>
+                <div class="banner-info">
+                    <div class="col-md-7 header-right">
+                        <h1>Hi !</h1>
+                        <h6>Mechanical Engineer</h6>
+                        <ul class="address">
+
+                            <li>
+                                <ul class="address-text">
+                                    <li><b>NAME</b></li>
+                                    <li>I'M Yash</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="address-text">
+                                    <li><b>D.O.B</b></li>
+                                    <li>04-10-1989</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="address-text">
+                                    <li><b>PHONE </b></li>
+                                    <li>+(506) 262-6477 </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="address-text">
+                                    <li><b>ADDRESS </b></li>
+                                    <li>35-Broadway St, Moncton, NB E1A 3Y1.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="address-text">
+                                    <li><b>E-MAIL </b></li>
+                                    <li><a href="mailto:patelyash_47@yahoo.com">patelyash_47@yahoo.com </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 header-left">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="clearfix"> </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="col-md-6 about-left">
+            <div id="owl-demo1" class="owl-carousel owl-carousel2">
+                <div class="item">
+                    <div class="about-left-grid">
+                        <h2>Hi! I'm <span>Yash Patel</span></h2>
+                        <p>Nearly 4 years of extensive experience in the field of Engineering and Project Management.Excellent verbal, writing and presentation skills.Strong organizational, time management and multi-tasking skills.Good interpersonal skills, therefore, can work as an independently, as a team player, and as a leader.Demonstrated willingness to be flexible and adaptable to the changing environment and desire to learn continuously, which makes me a valuable asset to the work.</p>
+                        <ul>
+                            <li><a href="../resume/yash_patel_resume.pdf" class="a-btn-a scroll" download="yash_patel_resume"><i class="glyphicon glyphicon-download-alt"></i>&nbsp;&nbsp;Resume</a></li>
+                            <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<div class="item">
+                    <div class="about-left-grid">
+                        <h2>Hi! I'm <span>Rob Lee</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
+                        <ul>
+                            <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+                            <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="about-left-grid">
+                        <h2>Hi! I'm <span>ROB LEE</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.</p>
+                        <ul>
+                            <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+                            <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="col-md-6 about-right">
+
+        </div>
+        <div class="clearfix"> </div>
+        <!--<link href="css/owl.carousel.css" rel="stylesheet">
+        <script src="js/owl.carousel.js"></script>-->
+        <!-- <script>
+             $(document).ready(function () {
+                 $("#owl-demo1").owlCarousel({
+                     items: 1,
+                     lazyLoad: false,
+                     autoPlay: true,
+                     navigation: false,
+                     navigationText: false,
+                     pagination: true,
+                 });
+             });
+         </script>-->
+        <!-- Feedback -->
+        <!--<script>
+            $(document).ready(function () {
+                $("#owl-demo3").owlCarousel({
+                    items: 1,
+                    lazyLoad: false,
+                    autoPlay: true,
+                    navigation: false,
+                    navigationText: true,
+                    pagination: true,
+                });
+            });
+        </script>-->
+    </div>
+    <!-- /about -->
+    <!--work-experience-->
+    <div id="work" class="work">
+        <div class="container">
+            <div class="service-head text-center">
+                <h4>WHAT I DID</h4>
+                <h3>MY <span>EXPERIENCE</span></h3>
+                <span class="border one"></span>
+            </div>
+            <div class="time-main w3l-agile">
+                <div class="col-md-6">
+                    <ul class="year">
+                        <li>June, 2016-Present</li><!--job-->
+                        <li>Jan, 2014-Apr, 2014</li><!--traning-->
+                        <li>Jan, 2013-May, 2015</li><!--master-->
+                        <li>July, 2011-Dec, 2012</li><!--paramount-->
+                        <li>July, 2011- June, 2012</li><!--pgdm-->
+                        <li>July, 2007-June, 2012 </li><!--be-->
+
+                    </ul>
+                </div>
+                <ul class="col-md-6 timeline">
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Kocken Energy Systems Inc., Saint Antoine, NB </h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Assisting the Project Manager in reviewing engineering deliverable and initiating appropriate correction actions.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Lorneville Mechanical Contractor Ltd. (LMC), Saint John, NB</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Assisted in project estimation which included calculations of manpower requirement and labor, material and welding costs.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-pencil"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Masters in Mechanical Engineering</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>University of New Brunswick (UNB), Fredericton, NB</p>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Paramount Limited, Vadodara, India</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Maintained contract execution and tracked the project amendments other than mentioned in it.Coordinated workshop activities with engineering and QC department.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-pencil"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Post-Grad Diploma in Business Management</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Maharaja Sayajirao University (MSU), Vadodara, India</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-pencil"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Bachelors in Mechanical Engineering</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Gujarat University, Vadodara, India </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//work-experience-->
+    <!-- /header -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="service-head one text-center">
+                <h4>CONTACT ME</h4>
+                <h3>GET <span>IN TOUCH WITH ME</span></h3>
+                <span class="border two"></span>
+            </div>
+            <div class="mail_us">
+                <div class="col-md-6 mail_left">
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                            <h4>Contact By Email</h4>
+                            <ul>
+                                <li>Mail1: <a href="mailto:patelyash_47@yahoo.com">patelyash_47@yahoo.com </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            <h4>Contact By Phone</h4>
+                            <ul>
+                                <li>Phone: (506)262-6477 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-grid1-left">
+                        <div class="contact-grid1-left1">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            <h4>Looking For Address</h4>
+                            <ul>
+                                <li>Address: 35-Broadway St,</li>
+                                <li>Moncton, NB, Canada.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="col-md-6 mail_right">
+                    <form action="#" method="post" id="myform">
+                        <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                        <input type="text" name="Mobile_number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+                        <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+                        <input type="submit" value="Send" id="btnSubmit">
+
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="copy_right text-center">
+
+                <ul class="social-icons two">
+
+                    <li><a href="#" class="fb"> </a></li>
+
+                    <li><a href="#" class="dott"> </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //footer -->
+    <!-- /container -->
+
+    <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+
+
+        var myform = $("form#myform");
+        myform.submit(function (event) {
+            event.preventDefault();
+
+            // Change to your service ID, or keep using the default service
+            var service_id = "default_service";
+            var template_id = "profile";
+
+            $("#btnSubmit").val("Sending...");
+            emailjs.sendForm(service_id, template_id, "myform")
+              .then(function () {
+                  //alert("Sent!");
+                  $("#btnSubmit").val("Sent");
+              }, function (err) {
+                  alert("Send email failed!");
+                  $("#btnSubmit").val("Send");
+              });
+            return false;
+        });
+    </script>
+
+
+
+    <!--end-smooth-scrolling-->
+    <!-- //for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
